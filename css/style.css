@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(213, 219, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-container{
+    float: left;
+}
+
+.card{
+    margin: 0 auto;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.inner-header{
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(159, 239, 213);
+    background-image: none;
+    margin: 0 auto;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.contacts a:hover{
+    background-color: rgb(213, 219, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(158, 228, 131);
+    color: #de6161;
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
